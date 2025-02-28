@@ -8,7 +8,6 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
@@ -27,7 +26,13 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      scss: { api: 'modern-compiler' },
+      scss: {
+        // api: 'modern-compiler'
+        additionalData: `
+          @import "@/styles/global.variables.scss";
+        `,
+        quietDeps: true
+      },
     }
   }
 })
