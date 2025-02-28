@@ -1,0 +1,148 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editorBracketPairGuide.activeBackground1": "#ffd000",
+    "editorBracketPairGuide.activeBackground2": "#33ff00",
+    "editorBracketPairGuide.activeBackground3": "#00fff2",
+    "editorBracketPairGuide.activeBackground4": "#0011ff",
+    "editorBracketPairGuide.activeBackground5": "#ff00d4",
+    "editorBracketPairGuide.activeBackground6": "#ff0000"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.tabCompletion": "off",
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.showSlider": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  // Files
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "/.git/objects/": true,
+    "/.git/subtree-cache/": true,
+    "/.venv/": true,
+    "/venv/": true,
+    "/.env/": true,
+    "/env/": true,
+    "/node_modules/": true
+  },
+  // Emmet
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "Sass": "css",
+    "vue": "html",
+    "vue-html": "html",
+    "django-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // Python
+  "python.languageServer": "Jedi",
+  "flake8.args": [
+    "--config=**/.flake8"
+  ],
+  "python.terminal.activateEnvironment": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint",
+    "editor.formatOnSave": false,
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.external.linuxExec": "zsh",
+  "prettier.endOfLine": "auto",
+  "prettier.singleAttributePerLine": true,
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "files.eol": "\n",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.commandCenter": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontFamily": "monospace",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/*/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "**/.*": "plaintext",
+    "**/*.lock": "plaintext",
+    "**/*.md": "markdown",
+    "**/*.json": "json",
+    "**/*.cjs": "javascript",
+    "**/*.ts": "typescript",
+    "**/*.vue": "vue",
+    "**/*.scss": "scss",
+    "**/*.py": "python",
+    "**/*.yml": "yaml",
+    "**/*.yaml": "yaml",
+    "**/.env*": "dotenv",
+    "**/*.js": "javascript"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.iconTheme": "material-icon-theme",
+}
