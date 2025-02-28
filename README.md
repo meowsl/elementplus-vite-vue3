@@ -25,3 +25,7 @@
   - SimpleJWT 5.5.0
   - Psycopg 2.9.10
   
+## Usefull links
+- [Element Plus Documentation](https://element-plus.org/en-US/)
+- [Django 5.1 Documentation](https://docs.djangoproject.com/en/5.1/)
+- [Django Rest Framework Documentation](https://www.django-rest-framework.org)
